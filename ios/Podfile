@@ -38,6 +38,7 @@ target 'Runner' do
   pod 'GoogleUtilities', :modular_headers => true 
   pod 'FirebaseCore', :modular_headers => true  
   pod 'FirebaseAuth', :modular_headers => true 
+  pod 'FirebaseFirestoreInternal', :modular_headers => true
   
   target 'RunnerTests' do
     inherit! :search_paths
